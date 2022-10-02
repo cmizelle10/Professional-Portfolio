@@ -57,10 +57,30 @@ a:active {
     display:flex;
  }
 
- .work .portfolio a {
+ /* .work .portfolio .small {
+   width: 100%;
+ } */
+
+ /* .work .portfolio a {
     display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
     width: 70%;
     height: 70%;
+ } */
+
+ .large {
+   display: flex;
+   position: relative;
+   width: 100%;
+   float: left;
+ }
+
+ .small {
+   display: flex-wrap;
+   position: relative;
+   width: 50%;
+   float: left;
  }
 
  .work .portfolio a img {
