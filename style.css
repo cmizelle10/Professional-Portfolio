@@ -1,12 +1,14 @@
  body {
     margin: 0;
     padding: 0;
+    background-color: #C0C0C0;
  }
  
  nav {
     display:flex;
     width: 100vw;
-    background-color: blue;
+    background-color:  rgb(70,130,180);
+    color: white;
  }
 
 nav h1 {
@@ -24,6 +26,22 @@ nav h1 {
     margin: 10px;
     font-size: 22px;
  }
+
+a:link {
+   color: white;
+ }
+
+a:visited {
+   color: white;
+}
+
+a:hover {
+   color: white;
+}
+
+a:active {
+   color: white;
+}
 
  .chris_pic {
    height: 200px;
