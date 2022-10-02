@@ -1,0 +1,46 @@
+ body {
+    margin: 0;
+    padding: 0;
+ }
+ 
+ nav {
+    display:flex;
+    width: 100vw;
+    background-color: blue;
+ }
+
+nav h1 {
+    margin-left: 1rem;
+}
+
+ nav ul {
+    display:flex;
+    margin-left: auto;
+    margin-right: 1rem;
+ }
+
+ nav ul li {
+    list-style: none;
+    margin: 10px;
+    font-size: 22px;
+ }
+
+ .work .portfolio {
+    display:flex;
+ }
+
+ .work .portfolio a {
+    display:flex;
+    width: 70%;
+    height: 70%;
+ }
+
+ .work .portfolio a img {
+    width: 70%;
+    height: 70%;
+ }
+
+ .chris_pic {
+    width: 70%;
+    height: 70%;
+ }
