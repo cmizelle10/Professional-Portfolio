@@ -1,56 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Chris Mizelle Portfolio</title>
+        <link rel ="stylesheet" href="./assets/css/style.css" />
+    </head>
+    <body>
+        <!--Header-->
+        <header>
+            <h1>Chris Mizelle</h1>
+            <nav>
+                <!--Unordered list elements-->
+                <ul>
+                    <!--List item elements-->
+                    <li>
+                        <a href="#about-me">About Me</a>   
+                    </li>
+                    <li>
+                        <a href="#work">Work</a>   
+                    </li>
+                    <li>
+                        <a href="#contact-me">Contact Me</a>   
+                    </li>                 
+                </ul>
+            </nav>
+        </header>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css" />
-    <title>Chris Mizelle</title>
-    
-</head>
-
-<body>
-    <nav>
-        <div><h1>Chris Mizelle</h1></div>
-        <ul>
-            <a href="#about"><li>About</li></a>
-            <a href="#work"><li>Work</li></a>
-            <a href="#contact"><li>Contact</li></a>
-        </ul>
-    </nav>
-
-    <header>
-        <div class = "chris_pic">
-            <img src="lowv_pic.jpg"/>
-        </div>
-        <!-- <div>
-            <h3>Hey, I'm Chris.</h3>
-        </div> -->
-    </header>
-    <main>
-        <section class = "about" id="about">
-            <h1>About Me</h1>
-            <p>My name is Chris. I live in Raleigh. I am enrolled in the UNC FullStack Developer bootcamp.
-                I am looking forward to building my skills and portfolio!
-            </p>
-        </section>
-        <section class = "work" id="work">
-            <h1>Work</h1>
-            <div class="portfolio">
-                <a><img src="module_1_challenge.PNG"/></a>
+         <!-- hero/jumbotron -->
+         <section class="hero">        
+            <img class="image2" src="./assets/images/profile_pic.jpg" alt="employee photo"/>
+            <div>
+                <h2>Full Stack Developer</h2>
             </div>
-            
         </section>
-        <section class = "contact" id="contact">
-            <h1>Contact</h1>
-            <ul>
-                <li>980.337.0026</li>
-                <li>cmizelle10@gmail.com</li>
-                <li>GitHub</li>
-            </ul>
-        </section>
-    </main>
-</body>
 
+         <!-- About section -->
+         <section id="about-me" class="about">
+            <div class="flex-row">
+              <h2 class="section-title">About Me</h2> 
+            </div>
+            <div class="step-info">
+                <div class="vl-border1">
+            </div>
+                <div class="step-text">
+                    <p>
+                        My name is Chris and I live in Raleigh, NC. I am a lifelong learner who loves to be active. </br>
+                        I am currently enrolled in the UNC Full Stack Developer bootcamp. I am scheduled to graduate in early March of 2023. </br>
+                        During this program, we have learned many aspects of full stack development. My portfolio is intended to showcase some of the applications I have built during my time in the program. </br>
+                    </p>
+                </div>
+         </section>
+
+         <!-- Work section -->
+        <section id="work" class="about">
+            <div class="flex-row ">
+              <h2 class="section-title">Work</h2> 
+            </div>
+            <div class="step-info">
+                <div class="vl-border2">
+                </div>
+                <!--CSS grid of images-->
+                <div class="container">
+                   <div class="gallery">                       
+                    <figure class="gallery__item gallery__item--1">
+                        <a href="https://cmizelle10.github.io/Work-Day-Scheduler/">
+                            <img src="./assets/images/workday_scheduler.PNG" class="gallery__img" alt="Workday Scheduler">
+                            <figcaption>Workday Scheduler</br>Third Party APIs</figcaption>                 
+                        </a>
+                        </figure>
+
+                      <figure class="gallery__item gallery__item--2">
+                          <a href="https://cmizelle10.github.io/Weather_Dashboard/">
+                            <img src="./assets/images/weather_dashboard.PNG" class="gallery__img" alt="Weather Dashboard">
+                            <figcaption>Weather Dashboard</br>Server Side APIs</figcaption>
+                          </a>
+                      </figure>
+
+                      <figure class="gallery__item gallery__item--3">
+                        <a href="https://cmizelle10.github.io/Code-Refactor/">
+                            <img src="./assets/images/code_refactor.PNG" class="gallery__img" alt="Code Refactor">
+                            <figcaption>Code Refactor</br>HTML CSS</figcaption>
+                        </a>
+                      </figure>
+                    </div>
+                </div>
+            </div>
+              </section>
+
+               <!-- Contact me section -->
+               <section id="contact-me" class="about">
+                <div class="flex-row">
+                    <h2 class="section-title">Contact</h2> 
+                </div>
+            <div class="step-info">
+                <div class="vl-border3">
+                </div>
+                <div class="contact-info">
+                <ul>
+                    <!--List item elements-->
+                    <li>
+                        <a href="#number">980-337-0026</a>   
+                    </li>
+                    <li>
+                        <a href="mailto:cmizelle10@gmail.com">Email</a>   
+                    </li>
+                    <li>
+                        <a href="https://github.com/cmizelle10">GitHub</a>   
+                    </li>  
+                    <li>
+                        <a href="https://www.linkedin.com/in/christopher-mizelle-13a509131/">LinkedIn</a>   
+                    </li>                  
+                </ul>
+                </div>
+            </section>        
+</body>
 </html>
